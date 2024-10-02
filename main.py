@@ -8,7 +8,7 @@ import png
 import os
 
 # Assigning the appropriate port value
-PORT = 8010
+PORT = 8011
 
 # This finds the name of the computer user
 # Use HOME for macOS
@@ -31,7 +31,7 @@ link = IP
 url = pyqrcode.create(link)
 
 # Saves the QR code in the specified directory
-url.svg("/Users/sabyasachiganguli/Desktop/code/projects/myqr.svg", scale=8)
+url.svg("/Users/sabyasachiganguli/Desktop/code/projects/file-sharing-using-python/myqr.svg", scale=8)
 
 # Opens the QR code image in the web browser
 webbrowser.open('/Users/sabyasachiganguli/Desktop/code/projects/myqr.svg')
